@@ -1,0 +1,23 @@
+
+
+main {
+    height: 76vh;
+}
+
+.main__crud,
+.crud__container {
+    height: 100%;
+    width: 100%;
+}
+
+.crud__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Bad practice alert */
+th, td {
+    padding: 4px;
+}
+/* ----- */

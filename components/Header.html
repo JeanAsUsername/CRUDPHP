@@ -1,0 +1,52 @@
+
+<header class="header">
+    <div class="header__brand">
+        <div class="brand__image"></div>
+    </div>
+    <nav class="header__nav">
+        <ul class="nav__list">
+            <li class="nav__item">Acerca</li>
+            <li class="nav__item">Contacto</li>
+        </ul>
+    </nav>
+</header>
+
+<style>
+
+.header {
+    height: 12vh;
+    min-height: 4rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dashed black;
+}
+
+.brand__image {
+    height: 3rem;
+    width: 5.5rem;
+    border: 1px solid black;
+
+    background-color: grey;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+}
+
+.nav__item {
+    margin-right: 0.5rem;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.05rem;
+    transition: color 200ms;
+    cursor: pointer;
+}
+
+.nav__item:hover {
+    color: grey;
+}
+    
+</style>
